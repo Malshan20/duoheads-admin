@@ -132,7 +132,7 @@ export function createAdminReplyEmailTemplate(data: AdminReplyEmailData): string
           <p>Best regards,<br>The Duoheads Support Team</p>
           <p>
             <a href="${data.replyUrl}">View Conversation</a> | 
-            <a href="mailto:MS_S0QDqE@2nd-brain.app">Contact Support</a>
+            <a href="mailto:support@duoheads.com">Contact Support</a>
           </p>
         </div>
       </div>
@@ -403,14 +403,14 @@ export function createChatEndedEmailTemplate(data: ChatEndedEmailData): string {
           ${
             data.feedbackUrl
               ? `<a href="${data.feedbackUrl}" class="cta-button">Share Your Feedback</a>`
-              : `<a href="mailto:MS_S0QDqE@2nd-brain.app?subject=Feedback for ${data.ticketNumber}" class="cta-button">Share Your Feedback</a>`
+              : `<a href="mailto:support@duoheads.com?subject=Feedback for ${data.ticketNumber}" class="cta-button">Share Your Feedback</a>`
           }
         </div>
 
         <div class="footer">
           <p>Thank you for choosing Duoheads!</p>
           <p>
-            <a href="mailto:MS_S0QDqE@2nd-brain.app">Contact Support</a>
+            <a href="mailto:support@duoheads.com">Contact Support</a>
           </p>
         </div>
       </div>
